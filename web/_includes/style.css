@@ -130,10 +130,14 @@ figure.fullwidth figcaption {
 }
 
 /* Links: replicate underline that clears descenders */
+a: {
+  text-decoration: none;
+}
 a:link,
 a:visited {
     color: inherit;
 }
 a:hover {
+  font-stlye: italic;
   text-decoration: none;
 }
